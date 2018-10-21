@@ -19,3 +19,10 @@ swagger ui url is 'http://localhost:8080/swagger-ui.html'
 
 Use the following command to run the application from commandline --
     mvn spring-boot:run
+
+Use the following details to access the in memory h2 database --
+
+URL: http://localhost:8080/h2-console
+JDBC URL: jdbc:h2:mem:testdb
+User Name: sa
+Pasword: <leave this empty>
