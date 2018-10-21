@@ -1,0 +1,10 @@
+drop table user if exists;
+create table user (id bigint not null, email varchar(255), name varchar(255), password varchar(255), username varchar(255), primary key (id));
+insert into user (id, email, name, password, username) values (10001, 'a@test.com', 'User1', 'password', 'username1');
+insert into user (id, email, name, password, username) values (10002, 'b@test.com', 'User2', 'password', 'username2');
+insert into user (id, email, name, password, username) values (10003, 'c@test.com', 'User3', 'password', 'username3');
+insert into user (id, email, name, password, username) values (10004, 'd@test.com', 'User4', 'password', 'username4');
+insert into user (id, email, name, password, username) values (10005, 'e@test.com', 'User5', 'password', 'username5');
+insert into user (id, email, name, password, username) values (10006, 'f@test.com', 'User6', 'password', 'username6');
+insert into user (id, email, name, password, username) values (10007, 'g@test.com', 'User7', 'password', 'username7');
+insert into user (id, email, name, password, username) values (10008, 'h@test.com', 'User8', 'password', 'username8');
